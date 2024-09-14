@@ -1,0 +1,615 @@
+* {
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}  
+
+/** SECTION ONE **/
+
+
+/** Hero **/
+
+main{
+    background-image: url("new_background.jpg");
+    height: 100vh;
+    width: 1540px;
+    background-repeat: none;
+    background-size: cover;
+}
+
+/** header **/
+
+.header-container{
+    height: 125px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    margin-top: 0px 0px 0px0px;
+}
+
+img{
+    width: 40%;
+    margin-top: none;
+    background-size: cover;
+}
+
+.header-logo{
+    width: 30%;
+}
+
+.button-top{
+    width: 70%;
+}
+
+.button-signin{
+    height: 35px;
+    width: 80px;
+    font-family: serif;
+    background-color: red;
+    color: lightgray;
+    border: none;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-weight: 1000;
+    padding: 0px;
+    margin-left: 25px;
+}
+
+.button-language{
+    height: 35px;
+    width: 125px;
+    font-family: serif;
+    margin-left: 70%;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: 700;
+    opacity: 90%;
+}
+
+.button-language i{
+    background-color: transparent;
+    color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.hvr:hover{
+    border: 0.1rem solid white;
+}
+
+/** Welcome message **/
+
+.container-head{
+    height: 525px;
+    width: 40%;
+    color: white; 
+    display: block;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-head h1{
+    height: 210px;
+    width: 588px;
+    margin: auto;
+    padding: auto;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 125%;
+    text-align: center;
+    margin: 0px 0px 16px;
+}
+
+.container-head p{
+    height: 24px;
+    width: 588px;
+    margin: auto;
+    padding: auto;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 0px 0px 32px;
+}
+
+
+.container-head h3{
+    height: 24px;
+    width: 588px;
+    margin: auto;
+    padding: auto;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 0px 0px 0px;
+}
+
+.container{
+    width: 100%;
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.container input{
+    height: 3.5rem;
+    width: 60%;
+    font-size: 1rem;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 0.25rem;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.container button{
+    height: 3.5rem;
+    width: 40%;
+    font-size: 1.5rem;
+    border-radius: 0.25rem;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    border: 1px solid rgb(229, 9, 20);
+    margin-left: 0.5rem;
+}
+
+.get-started i{
+    margin-left: 0.5rem;
+}
+
+/** scrollbar section **/
+
+.trending-bar{
+    height: 7rem;
+    width: 1540px;
+    background-color: black;
+    border-top: 0.2rem solid rgb(229, 9, 20, 0.2);
+}
+
+.trending-bar-button{
+    height: 2.5rem;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.trending-bar p{
+    width: 80%;
+    height: 3rem;
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-content: center;
+}
+
+.trending-bar button{
+    height: 2.5rem;
+    width: 100px;
+    color: white;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 0.25rem;
+    margin-right: 1rem;
+}
+
+.trending-bar-button i{
+    padding-left: 0.5rem;
+}
+
+.trending-bar button:hover{
+    border: 2px solid white;
+}
+
+.scrollbar-border{
+    width: 1540px;
+    height: 20rem;
+    display: flex;
+}
+
+.icon-left{
+    width: 10%;
+    height: 20rem;
+    background-color: black;
+    align-content: center;
+    font-size: 1.25rem;
+}
+
+.icon-left i{
+    height: 7.5rem;
+    width: 15%;
+    background-color: gray;
+    opacity: 0.3;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    align-content: center;
+    margin-left: 75%;
+    margin-right: 10%;
+}
+
+.icon-right{
+    width: 10%;
+    height: 20rem;
+    background-color: black;
+    align-content: center;
+    font-size: 1.25rem;
+}
+
+.icon-right i{
+    height: 7.5rem;
+    width: 15%;
+    background-color: gray;
+    opacity: 0.3;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    align-content: center;
+    margin-right: 75%;
+    margin-left: 10%;
+}
+
+.scrollbar{
+    height: 20rem;
+    width: 80%;
+    background-color: black;
+    display: flex;
+    overflow-x: auto;
+}
+
+.image-zoom{
+    width: auto;
+    height: 18rem;
+    border-radius: 0.5rem;
+    background-size: cover;
+    align-content: center;
+    margin-right: 1rem;
+}
+
+.image-zoom-last{
+    width: auto;
+    height: 18rem;
+    border-radius: 0.5rem;
+    background-size: cover;
+    align-content: center;
+    margin-right: 0px;
+}
+
+.image-zoom:hover{
+    transform: scale(1.01);
+}
+
+.scrollbar::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+
+/** PAGE ONE **/
+
+.page-one{
+    height: 400px;
+    width: 1540px;
+    color: white;
+    background-color: black;
+    border-top: 0.75rem solid rgb(45,45,45,0.3);
+    display: flex;
+}
+
+.page-one-text{
+    width: 40%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 1.5rem;
+    text-align: left;
+    align-content: center;
+}
+
+.page-one-text p{
+    padding-top: 1rem;
+}
+
+.page-one-image{
+    width: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-content: center;
+}
+
+.page-one-image img{
+    height: auto;
+    width: 100%;
+}
+
+/** PAGE TWO **/
+
+.page-two{
+    height: 400px;
+    width: 1540px;
+    color: white;
+    background-color: black;
+    border-top: 0.75rem solid rgb(45,45,45,0.3);
+    display: flex;
+}
+
+.page-two-text{
+    width: 40%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 1.5rem;
+    text-align: left;
+    align-content: center;
+}
+
+.page-two-text p{
+    padding-top: 1rem;
+}
+
+.page-two-image{
+    width: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-content: center;
+}
+
+.page-two-image img{
+    height: auto;
+    width: 100%;
+}
+
+/** PAGE THREE **/
+
+.page-three{
+    height: 400px;
+    width: 1540px;
+    color: white;
+    background-color: black;
+    border-top: 0.75rem solid rgb(45,45,45,0.3);
+    display: flex;
+}
+
+.page-three-text{
+    width: 40%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 1.5rem;
+    text-align: left;
+    align-content: center;
+}
+
+.page-three-text p{
+    padding-top: 1rem;
+}
+
+.page-three-image{
+    width: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-content: center;
+}
+
+.page-three-image img{
+    height: auto;
+    width: 100%;
+}
+
+/** PAGE FOUR **/
+
+.page-four{
+    height: 400px;
+    width: 1540px;
+    color: white;
+    background-color: black;
+    border-top: 0.75rem solid rgb(45,45,45,0.3);
+    display: flex;
+}
+
+.page-four-text{
+    width: 40%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 1.5rem;
+    text-align: left;
+    align-content: center;
+}
+
+.page-four-text p{
+    padding-top: 1rem;
+}
+
+.page-four-image{
+    width: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-content: center;
+}
+
+.page-four-image img{
+    height: auto;
+    width: 100%;
+}
+
+/** PAGE FIVE **/
+
+.page-five-one{
+    width: 1540px;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    border-top: 0.75rem solid rgb(45,45,45,0.3);
+    padding-bottom: 1rem;
+}
+
+.page-five-two{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.page-five-heading{
+    height: 5rem;
+    align-content: center;
+}
+
+.page-five-content{
+    width: 100%;
+}
+
+#five-a{
+    background-color: rgb(45,45,45);
+    margin-bottom: 1rem;
+    display: flex;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.page-five-content p{
+    width: 95%;
+    height: 2rem;
+}
+
+.page-five-content i{
+    width: 5%;
+    background-color: rgb(45,45,45);
+    text-align: center;
+    align-content: center;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+/** PAGE SIX **/
+
+.container-two-main{
+    width: 1540px;
+    color: white;
+    background-color: black;
+}
+
+.container-two-main h3{
+    width: 80%;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: 100;
+    align-content: center;
+    text-align: center;
+    padding-top: 3em;
+    padding-left: 10%;
+    padding-right: 10%; 
+}
+
+.container-two{
+    width: 50%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.container-two input{
+    height: 3.5rem;
+    width: 75%;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 0.25rem;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.container-two button{
+    height: 3.5rem;
+    width: 25%;
+    font-size: 1.5rem;
+    border-radius: 0.25rem;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    border: 1px solid rgb(229, 9, 20);
+    margin-left: 0.5rem;
+}
+
+/** SUPPORT PAGE **/
+
+.support-page{
+    width: 1540px;
+    color: #ffffffb3;
+    background-color: black;
+    display: flex;
+}
+
+.support-page-help{
+    height: 5rem;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    align-content: end;
+}
+
+.support-page-help a{
+    text-decoration-line: underline;
+    text-decoration-color: #ffffffb3;
+}
+
+.support-page-panel-main{
+    width: 1540px;
+    height: 15rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.support-page-panel{
+    width: 80%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 1rem;
+}
+
+ul a{
+    font-size: 1rem;
+    display: block;
+    margin-top: 1rem;
+    color: #ffffffb3;
+    text-decoration-line: underline;
+    text-decoration-color: #ffffffb3;
+}
+
+.support-page-language-button{
+    height: 5rem;
+    width: 1540px;
+    background-color: black;
+}
+
+
+.support-page-language-button .button-language{
+    margin-left: 10%;
+    background-color: black;
+    margin-left: 10%;
+}
+
+.support-page-copy-right{
+    width: 1540px;
+    height: 10rem;
+    background-color: black;
+    color: #ffffffb3;
+}
+
+.support-page-copy-right p{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
