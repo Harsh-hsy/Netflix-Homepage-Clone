@@ -21,3 +21,13 @@ git clone https://github.com/Harsh-hsy/Netflix-Homepage-Clone.git
 cd Netflix-Homepage-Clone
 
 3. Open index.html in your browser to view the project.
+
+# Usage
+Feel free to explore the project and make modifications. You can use this project as a starting point for your own web development projects or as a learning tool to improve your HTML and CSS skills.
+
+# Contributing
+Contributions are welcome! If you have any suggestions or improvements, please create a pull request or open an issue.
+
+# Acknowledgements
+1. Netflix: For the inspiration to create this clone.
+2. Font Awesome: For providing the icons used in the project.
