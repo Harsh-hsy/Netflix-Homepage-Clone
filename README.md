@@ -4,11 +4,6 @@ This project is a clone of the homepage of **Netflix**, the world's leading stre
 
 ---
 
-## 🚀 Live Demo
-Check out the live version of the project here: [Netflix Homepage Clone](https://harsh-hsy.github.io/Netflix-Homepage-Clone/)  
-
----
-
 ## 🛠️ Features
 
 - **Responsive Design**: Optimized for desktop, tablet, and mobile devices.
@@ -25,4 +20,4 @@ Check out the live version of the project here: [Netflix Homepage Clone](https:/
 - **HTML5**: For structuring the content of the webpage.
 - **CSS3**: For styling and layout design.
 - **JavaScript**: For adding interactivity, such as the carousel.
-- **Figma/Photoshop** *(Optional)*: Used for analyzing and prototyping the design.
+- **Figma/Photoshop**: Used for analyzing and prototyping the design.
